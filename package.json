@@ -1,6 +1,6 @@
 {
     "name": "@jereztech/i18n-react",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "TypeScript-based i18n package for React ecosystem.",
     "main": "dist/index.js",
     "types": "dist/index.d.ts",
@@ -18,9 +18,6 @@
         "test:react": "jest --projects=react",
         "clean": "rimraf dist",
         "reinstall": "sudo rimraf dist node_modules package-lock.json && npm install --force"
-    },
-    "dependencies": {
-        "rxjs": "^7.8.1"
     },
     "peerDependencies": {
         "react": "^18.3.1",
@@ -62,10 +59,8 @@
         "translation",
         "language",
         "locale",
-        "language switcher",
         "react",
         "next",
-        "typescript",
         "react native"
     ],
     "author": "Jerez Tech (https://jereztech.com)",
