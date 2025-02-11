@@ -1,0 +1,18 @@
+{
+    "welcome": "Welcome",
+    "greeting": "Hello {{name}}!",
+    "items": {
+        "one": "You have one item",
+        "other": "You have {{count}} items"
+    },
+    "date": "Today is {{date, date}}",
+    "number": "Your score is {{score, number}}",
+    "currency": "Total price: {{price, currency}}",
+    "Home": {
+        "title": "Welcome Home",
+        "sales": {
+            "one": "Sale: {{count}} item left!"
+        }
+    },
+    "fallbackKey": "Fallback translation"
+}
