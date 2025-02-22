@@ -17,5 +17,4 @@
 
 export { default as I18nContext, I18nProvider } from './contexts/I18nContext';
 export { default as useI18n } from './hooks/useI18n';
-export { default as useLocale } from './hooks/useLocale';
 
