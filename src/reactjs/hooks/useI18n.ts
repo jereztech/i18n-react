@@ -22,7 +22,7 @@ import I18nContext from '../contexts/I18nContext';
 
 const useI18n = (namespace?: Namespace) => {
 
-    const { locale, dictionary } = useContext(I18nContext);
+    const { dictionary, locale, setLocale, supportedLocales } = useContext(I18nContext);
 
     /**
      * Translates a given key with optional parameters.
@@ -36,7 +36,7 @@ const useI18n = (namespace?: Namespace) => {
         [locale, namespace]
     );
 
-    return { t, locale };
+    return { t, locale, setLocale, supportedLocales };
 };
 
 export default useI18n;
